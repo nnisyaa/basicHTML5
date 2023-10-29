@@ -22,3 +22,45 @@
 </form>
 
 <input type="file" name="avatar" accept="image/png, image/jpeg">
+value = "" - значение по умолчанию
+
+<label for="age">age</label>
+<input type="number" name="age" id="" min="" max="" value="" step= "">
+
+<form action="">
+        <label for="phone">Choose your phone</label>
+        <select name="phone" id="phone">
+            <option value="">--Your phone--</option>
+            <option value="apple">Apple</option>
+            <option value="nokia">Nokia</option>
+            <option value="samsung">Samsung</option>
+
+        </select>
+</form>
+
+<h2>Chechbox form</h2>
+    <form action="">
+        <label for="checkbox1">Yes</label>
+        <input type="checkbox" name="checkbox1" id="">
+    </form>
+    <h2>Radio form</h2>
+    <form action="">
+        <label for="radio1">Yes</label>
+        <input type="radio" name="radio1" id="">
+        <label for="radio1">No</label>
+        <input type="radio" name="radio1" id="">
+    </form>
+    <h2>Slider Form</h2>
+    <form action="">
+        <input type="range" name="volume" id="volume">
+        <output class="volume-output"></output>
+    </form>
+    <script>
+        const volume = document.querySelector('#volume');
+        const output = document.querySelector('.volume-output');
+
+        output.textContent = volume.value;
+        volume.addEventListener('input', () =>{
+            output.textContent = volume.value;
+        })
+    </script>

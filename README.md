@@ -67,3 +67,15 @@ value = "" - значение по умолчанию
 
     псевдоклассы 
     hover, active, focus, 
+
+
+    display:flex
+    justify-content:center,flex-start,flex-end,space-between,space-around по горизонтали
+    align-center:flex-end,flex-start по вертикали
+    flex-wrap:wrap,wrap-reverse
+    flex-direction:row,column
+
+
+
+
+    flex-flow: row wrap

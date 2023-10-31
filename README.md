@@ -64,3 +64,6 @@ value = "" - значение по умолчанию
             output.textContent = volume.value;
         })
     </script>
+
+    псевдоклассы 
+    hover, active, focus, 
